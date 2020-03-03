@@ -1,0 +1,68 @@
+:root,body{
+    margin-left: auto;
+    font-family:  Arial;
+    text-align: center;
+    font-size: 16px;
+  }
+button {
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+.sortUp{
+    transform: rotate(-135deg);
+}
+.sortDown {
+    transform: rotate(45deg);
+}
+.sortUp, .sortDown{
+    border: solid rgb(250, 246, 246);
+    background-color: rgb(54, 58, 59);;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    display: block;
+}
+#add{
+    background-color: #008CBA;   
+    border-radius: 4px;   
+}
+#add:hover{
+    background-color: rgb(6, 102, 134);
+}
+.delete {
+    background-color:rgb(167, 7, 7);
+    border-radius: 4px;
+}
+.delete:hover {
+    background-color: #7e0505;
+}
+input{
+    padding: 5px;
+    margin-left: 10px;
+}
+table {
+    border-collapse: collapse;
+    margin-left: 30%;
+    margin-top: 2%;
+    width: 40%;
+}
+tr:nth-child(even) {
+    background-color: #d1cfcf;
+}
+th ,td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+th{
+    background-color: rgb(54, 58, 59);
+    color: white;
+}
+div{
+    float: right;
+}
