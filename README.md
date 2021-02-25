@@ -1,7 +1,7 @@
-# Movies_Reviews_Web_Page
+# Movies_Review_Web_Page
  
  The main idea: 
-  personal movies review list.
+  personal movies review list web page.
  
  functionality: 
    adding movie name and raiting to the list.
