@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- CSS  -->
+    <link rel="stylesheet" href='stylesheet.css'>
+    <!-- jquery link -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <title>Favorites List</title>
+</head>
+
+<body>
+    <h1>My Favorite Movies</h1>
+    <form id="form">
+        <p>
+            Title
+            <input id="titleInput" type="text" placeholder="Movie Title"></p>
+        Rating
+        <input id="ratingInput" type="text" placeholder="Rate the movie from 0 to 10">
+        </p>
+        <button id="add">Add Movie</button>
+    </form>
+    <table>
+        <tr>
+            <th>Title<div><button class="sortUp"></button><button class="sortDown"></button></div></th>
+            <th>Rating<div><button class="sortUp"></button><button class="sortDown"></button></div></th>
+            <th>Delete</th>
+        </tr>
+    </table>
+    <script src="src/index.js"> </script>
+</body>
+
+</html>
